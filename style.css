@@ -33,7 +33,7 @@ body {
 
 .exercise-movement {
   display: flex;
-  justify-content: center;
+  place-items: center;
   gap: 1rem;
 }
 
@@ -119,6 +119,7 @@ p {
 
   .exercise-movement img {
     max-width: 60%;
+    display: flex;
   }
 
   .exercise-name {
