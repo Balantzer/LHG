@@ -114,7 +114,7 @@ p {
 @media (max-width: 450px) {
   .exercise-movement {
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
 
   .exercise-movement img {
