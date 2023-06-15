@@ -8,7 +8,7 @@ body {
   background-color: #222;
   color: rgb(241, 241, 241);
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .container {
@@ -90,24 +90,23 @@ p {
   justify-content: center;
   font-size: 2.5rem;
   padding: 1rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /* Color accents for muscle groups */
-.label-data .data[data-muscle-group="Chest"] {
-  color: #ff6384; /* Pink */
+.chest {
+  background-color: #dc2626; /*Red-600-uicolors.app */
 }
 
-.label-data .data[data-muscle-group="Triceps"] {
-  color: #59ff46; /* Orange */
+.data[data-muscle-group="Triceps"] {
+  color: #059669; /* Green-600-uicolors.app */
 }
 
-.label-data .data[data-muscle-group="Shoulders"] {
-  color: #36a2eb; /* Blue */
+.data[data-muscle-group="Shoulders"] {
+  color: #2563eb; /* Blue-600-uicolors.app */
 }
-
-.label-data .data[data-muscle-group="Traps"] {
-  color: #ff00ff; /* Magenta */
+.data[data-muscle-group="Traps"] {
+  color: #9333ea; /* Purple-600-uicolors.app */
 }
 
 @media (max-width: 500px) {
@@ -122,18 +121,22 @@ p {
   }
 
   .exercise-name {
-    font-size: 1.1rem;
-    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-right: 0;
+    padding-left: 0;
   }
 
   .label {
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1rem;
   }
 
   .data {
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.1rem;
+    font-weight: 300;
     line-height: 3rem;
   }
 }
