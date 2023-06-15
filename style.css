@@ -58,8 +58,8 @@ p {
 }
 
 .data {
-  border: 0.1rem solid;
-  border-radius: 1rem;
+  /* border: 0.1rem solid; */
+  border-radius: 10000px;
   padding: 0rem 0.3rem 0rem 0.3rem;
   display: flex;
   justify-content: center;
@@ -94,19 +94,19 @@ p {
 }
 
 /* Color accents for muscle groups */
-.chest {
+.data.chest {
   background-color: #dc2626; /*Red-600-uicolors.app */
 }
 
-.data[data-muscle-group="Triceps"] {
-  color: #059669; /* Green-600-uicolors.app */
+.triceps {
+  background-color: #059669; /* Green-600-uicolors.app */
 }
 
-.data[data-muscle-group="Shoulders"] {
-  color: #2563eb; /* Blue-600-uicolors.app */
+.shoulders {
+  background-color: #2563eb; /* Blue-600-uicolors.app */
 }
-.data[data-muscle-group="Traps"] {
-  color: #9333ea; /* Purple-600-uicolors.app */
+.traps {
+  background-color: #9333ea; /* Purple-600-uicolors.app */
 }
 
 @media (max-width: 500px) {
