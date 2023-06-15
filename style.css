@@ -122,14 +122,18 @@ p {
   }
 
   .exercise-name {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
+    font-weight: 700;
   }
 
   .label {
-    font-size: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
   }
 
   .data {
-    font-size: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 3rem;
   }
 }
